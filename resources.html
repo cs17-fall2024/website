@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS17 Course Website</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <div id="nav-bar-wrapper">
+        <a href="index.html">
+            <img src="/images/logo192.png" alt="CS17">
+        </a>
+
+        <button class="dropbtn" onclick="toggle()">&#x2630;</button>
+
+        <div id="dropdown-container">
+            <div id="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="assignments.html">Assignments</a>
+              <a href="notes.html">Notes</a>
+              <a href="resources.html">Resources</a>
+              <a href="staff.html">Staff</a>
+            </div>
+        </div>
+
+        <div id="nav-bar">
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=assignments.html>Assignments</a></li>
+                <li><a href=notes.html>Notes</a></li>
+                <li><a href=resources.html>Resources</a></li>
+                <li><a href=staff.html>Staff</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="assign-page">
+        <h1>Resources</h1>
+
+        <div id="resource-page">
+
+            <div class="resource-column">
+                <p>General</p>
+                <div class="resource-box">Syllabus</div>
+                <div class="resource-box">Common mistakes</div>
+                <div class="resource-box">Racket to ReasonML</div>
+                <div class="resource-box">Design recipe</div>
+            </div>
+        
+            <div class="resource-column">
+                <p>Racket and ReasonML</p>
+                <div class="resource-box">Style Guide</div>
+                <div class="resource-box">Racket Style Guide</div>
+                <div class="resource-box">ReasonML Debugging</div>
+                <div class="resource-box">ReasonML Install</div>
+                <div class="resource-box">ReasonML Style</div>
+            </div>
+        
+            <div class="resource-column">
+                <p>Policies and Guides</p>
+                <div class="resource-box">EdStem Policies</div>
+                <div class="resource-box">Hours Policies</div>
+                <div class="resource-box">Pair Programming</div>
+                <div class="resource-box">Class Policies</div>
+                <div class="resource-box">Primitives</div>
+                <div class="resource-box">Symbol Guide</div>
+                <div class="resource-box">Using SSH</div>
+            </div>
+    
+        </div>
+        <h1>
+            Calendars
+        </h1>
+        <p>
+            so. we dont have the calendars yet. but we will.
+            in the meantime, here is last year's calendar.
+        </p>
+        <div id="calendar-container">
+            <iframe src="https://calendar.google.com/calendar/embed?src=c_e68c058f258d2ce5f22f29e7d54bacd4eb55bc7e877d6641887cd3c76bea919a%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+    
+
+    <script src="/index.js"></script>
+</body>
