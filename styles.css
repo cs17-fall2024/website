@@ -225,12 +225,43 @@ body {
     margin-bottom:10px;
 }
 #current-assignments{
+    text-align: left; 
     justify-content: center;
     margin:0;
     padding:10px;
     display: flex;
     flex-direction: row;
     border-radius:15px;
+}
+#lab-assignment-card{
+    background-color:#cee6e7;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    margin-top:0;
+    margin-bottom:0;
+    padding:10px;
+}
+#hw-assignment-card{
+    background-color:#cee6e7;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    margin-top:0;
+    margin-bottom:0;
+    padding:10px;
+}
+#proj-assignment-card{
+    background-color:#cee6e7;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    margin-top:0;
+    margin-bottom:0;
+    padding:10px;
 }
 #assignment-card{
     background-color:#cee6e7;
