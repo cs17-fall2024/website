@@ -243,15 +243,16 @@ body {
 }
 #current-assignments h2{ 
     text-align: center; 
+    margin-bottom: 0.5em; 
     margin-top: 0; 
+    padding-bottom: 0.25em; 
     border-bottom: 0.5px solid black; 
 }
-
-
 #assignment-card-line { 
     display: flex; 
-    margin-bottom: 0.5em; 
+    margin-top: 0.5em; 
 }
+
 table{
     width:100%;
     border-collapse: collapse;
@@ -267,6 +268,7 @@ table tr:nth-child(even) {
 table tr:nth-child(odd) {
     background-color:#e4e4e4;
 }
+
 
 /*
     Calendars

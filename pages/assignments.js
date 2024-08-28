@@ -74,9 +74,23 @@ const getAssignments = () => {
       document.getElementById("lab-assignment-card-title").innerHTML =
         lab.title;
       document.getElementById("lab-assignment-card-out").innerHTML =
-        lab.out.toLocaleString();
+        lab.out.toLocaleString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          hour12: true,
+          minute: "2-digit",
+        });
       document.getElementById("lab-assignment-card-due").innerHTML =
-        lab.due.toLocaleString();
+        lab.due.toLocaleString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          hour12: true,
+          minute: "2-digit",
+        });
     }
   });
   homeworks.forEach((hw) => {
@@ -85,9 +99,23 @@ const getAssignments = () => {
       title.innerHTML = hw.title;
       title.setAttribute("href", hw.link);
       document.getElementById("hw-assignment-card-out").innerHTML =
-        hw.out.toLocaleString();
+        hw.out.toLocaleString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          hour12: true,
+          minute: "2-digit",
+        });
       document.getElementById("hw-assignment-card-due").innerHTML =
-        hw.due.toLocaleString();
+        hw.due.toLocaleString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          hour12: true,
+          minute: "2-digit",
+        });
     }
   });
   projects.forEach((proj) => {
@@ -99,9 +127,23 @@ const getAssignments = () => {
       title.innerHTML = proj.title;
       title.setAttribute("href", proj.link);
       document.getElementById("proj-assignment-card-out").innerHTML =
-        proj.out.toLocaleString();
+        proj.out.toLocaleString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          hour12: true,
+          minute: "2-digit",
+        });
       document.getElementById("proj-assignment-card-due").innerHTML =
-        proj.due.toLocaleString();
+        proj.due.toLocaleString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          hour12: true,
+          minute: "2-digit",
+        });
     }
   });
 };
