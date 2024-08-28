@@ -66,38 +66,42 @@ const projects = [
 // get the current assignments and update the html
 const getAssignments = () => {
   d = new Date();
-  labs.forEach((hw) => {
-    if (d.valueOf() <= hw.due.valueOf() && d.valueOf() >= hw.out.valueOf()) {
-      console.log(hw);
-      document.getElementById("lab-assignment-card-title").innerHTML = hw.title;
+  labs.forEach((lab) => {
+    if (d.valueOf() <= lab.due.valueOf() && d.valueOf() >= lab.out.valueOf()) {
+      title = document.getElementById("lab-assignment-card-title");
+      title.innerHTML = lab.title;
+      title.setAttribute("href", lab.link);
+      document.getElementById("lab-assignment-card-title").innerHTML =
+        lab.title;
       document.getElementById("lab-assignment-card-out").innerHTML =
-        hw.out.toLocaleString();
+        lab.out.toLocaleString();
       document.getElementById("lab-assignment-card-due").innerHTML =
-        hw.due.toLocaleString();
-      document.getElementById("lab-assignment-card-link").innerHTML = hw.link;
+        lab.due.toLocaleString();
     }
   });
   homeworks.forEach((hw) => {
     if (d.valueOf() <= hw.due.valueOf() && d.valueOf() >= hw.out.valueOf()) {
-      console.log(hw);
-      document.getElementById("hw-assignment-card-title").innerHTML = hw.title;
+      title = document.getElementById("hw-assignment-card-title");
+      title.innerHTML = hw.title;
+      title.setAttribute("href", hw.link);
       document.getElementById("hw-assignment-card-out").innerHTML =
         hw.out.toLocaleString();
       document.getElementById("hw-assignment-card-due").innerHTML =
         hw.due.toLocaleString();
-      document.getElementById("hw-assignment-card-link").innerHTML = hw.link;
     }
   });
-  projects.forEach((hw) => {
-    if (d.valueOf() <= hw.due.valueOf() && d.valueOf() >= hw.out.valueOf()) {
-      console.log(hw);
-      document.getElementById("proj-assignment-card-title").innerHTML =
-        hw.title;
+  projects.forEach((proj) => {
+    if (
+      d.valueOf() <= proj.due.valueOf() &&
+      d.valueOf() >= proj.out.valueOf()
+    ) {
+      title = document.getElementById("proj-assignment-card-title");
+      title.innerHTML = proj.title;
+      title.setAttribute("href", proj.link);
       document.getElementById("proj-assignment-card-out").innerHTML =
-        hw.out.toLocaleString();
+        proj.out.toLocaleString();
       document.getElementById("proj-assignment-card-due").innerHTML =
-        hw.due.toLocaleString();
-      document.getElementById("proj-assignment-card-link").innerHTML = hw.link;
+        proj.due.toLocaleString();
     }
   });
 };
