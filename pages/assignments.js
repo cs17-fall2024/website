@@ -134,7 +134,10 @@ const getAssignments = () => {
     hwTable.appendChild(newRow);
 
     var cellTitle = document.createElement("td");
-    cellTitle.textContent = row.title;
+    var cellLink = document.createElement("a");
+    cellLink.setAttribute("href", row.link);
+    cellLink.innerHTML = row.title;
+    cellTitle.appendChild(cellLink);
     newRow.appendChild(cellTitle);
 
     var cellOut = document.createElement("td");
@@ -154,7 +157,10 @@ const getAssignments = () => {
     var newRow = document.createElement("tr");
 
     var cellTitle = document.createElement("td");
-    cellTitle.textContent = row.title;
+    var cellLink = document.createElement("a");
+    cellLink.setAttribute("href", row.link);
+    cellLink.innerHTML = row.title;
+    cellTitle.appendChild(cellLink);
     newRow.appendChild(cellTitle);
 
     var cellOut = document.createElement("td");
@@ -176,7 +182,10 @@ const getAssignments = () => {
     var newRow = document.createElement("tr");
 
     var cellTitle = document.createElement("td");
-    cellTitle.textContent = row.title;
+    var cellLink = document.createElement("a");
+    cellLink.setAttribute("href", row.link);
+    cellLink.innerHTML = row.title;
+    cellTitle.appendChild(cellLink);
     newRow.appendChild(cellTitle);
 
     var cellOut = document.createElement("td");
