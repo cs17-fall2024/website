@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS17 Course Website</title>
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="notesPage">
 
     <div id="nav-bar-wrapper">
         <a href="index.html">
-            <img src="/images/logo192.png" alt="CS17">
+            <img src="/images/cs17_logo_green.png" alt="CS17">
         </a>
 
         <button class="dropbtn" onclick="toggle()">&#x2630;</button>
 
         <div id="dropdown-container">
             <div id="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="assignments.html">Assignments</a>
-              <a href="notes.html">Notes</a>
-              <a href="resources.html">Resources</a>
-              <a href="staff.html">Staff</a>
+              <a href="index.html" data-page="homePage">Home</a>
+              <a href="assignments.html" data-page="assignmentsPage">Assignments</a>
+              <a href="notes.html" data-page="notesPage">Notes</a>
+              <a href="resources.html" data-page="resourcesPage">Resources</a>
+              <a href="staff.html" data-page="staffPage">Staff</a>
             </div>
         </div>
 
@@ -43,10 +44,6 @@
         <h1>
             Notes
         </h1>
-
-        <div>
-
-        </div>
 
         <div id="classes-container">
             <div id="recent-classes">
@@ -101,6 +98,9 @@
     </div>
 
 
+    <div id="footer">
+        <br>
+    </div>
 
 
     <script src="/index.js"></script>

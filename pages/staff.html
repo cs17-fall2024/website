@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS17 Course Website</title>
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="staffPage">
 
     <div id="nav-bar-wrapper">
         <a href="index.html">
-            <img src="/images/logo192.png" alt="CS17">
+            <img src="/images/cs17_logo_green.png" alt="CS17">
         </a>
 
         <button class="dropbtn" onclick="toggle()">&#x2630;</button>
 
         <div id="dropdown-container">
             <div id="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="assignments.html">Assignments</a>
-              <a href="notes.html">Notes</a>
-              <a href="resources.html">Resources</a>
-              <a href="staff.html">Staff</a>
+              <a href="index.html" data-page="homePage">Home</a>
+              <a href="assignments.html" data-page="assignmentsPage">Assignments</a>
+              <a href="notes.html" data-page="notesPage">Notes</a>
+              <a href="resources.html" data-page="resourcesPage">Resources</a>
+              <a href="staff.html" data-page="staffPage">Staff</a>
             </div>
         </div>
 
@@ -39,9 +40,10 @@
     <div id="staff-body">
 
         <div id="staff-feature">
-                <img src="/images/staff/bear.png">
-                <h1> Bruno </h1>
-                <h3> HTA | she/her </h3>
+                <img src="/images/staff/skylar.png">
+                <h1> Prof. Klein </h1>
+                <h3> Professor </h3>
+                <h4> he/him | Birthday | Hometown </h4>
                 <p> bio here. but its hidden! </p>
         </div>
 
@@ -49,42 +51,125 @@
 
             <div id="staff-cards">
                 <div id="staff-card">
-                    <img src="/images/staff/bear.png">
-                    <h1> Bruno </h1>
-                    <h3> HTA | she/her </h3>
+                    <img src="/images/staff/cpax.jpeg">
+                    <h1> Prof. Klein </h1>
+                    <h3> Professor</h3>
+                    <h4> he/him | Birthday | Hometown </h4>
                     <p> bio here. but its hidden! </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6V486jCRSNHh0tBAMSLwI0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+    
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Kristen </h1>
+                    <h3> HTA | kcai6 </h3>
+                    <h4> he/him | Birthday | Hometown </h4>
+                    <p> hello it is me. cpax . </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5PJH1U5Iie893v48Fl9yaC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
     
                 <div id="staff-card">
                     <img src="/images/staff/cpax.jpeg">
-                    <h1> Christina paxon </h1>
-                    <h3> HTA | she/her </h3>
-                    <p> hello it is me. cpax . </p>
-                </div>
-    
-                <div id="staff-card">
-                    <img src="/images/staff/skylar-walters.png">
-                    <h1> skylar </h1>
-                    <h3> HTA | she/her </h3>
+                    <h1> Melinda </h1>
+                    <h3> HTA | mzhan157 </h3>
+                    <h4> he/him | Birthday | Hometown </h4>
                     <p> bio here. but its hidden! </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2KbP76N9Fw4MWKIjYyBlbC?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
     
                 <div id="staff-card">
-                    <img src="/images/staff/skylar-walters.png">
-                    <h1> Skylar Walters </h1>
-                    <h3> HTA | she/her </h3>
+                    <img src="/images/staff/skylar.png">
+                    <h1> Skylar </h1>
+                    <h3> HTA | swalter4 </h3>
+                    <h4> she/her • May 2 • Madison, NJ </h4>
+                    <p> Hi everyone!! I'm a junior studying Computational Biology and History. When I'm not coding on the green, you can catch me playing banjo, leading outdoor trips, sewing, or listening to Radiohead. Excited to meet you all :) </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5gmv3BgePSYiHnPJgY7oTJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                
                 </div>
     
                 <div id="staff-card">
-                    <img src="/images/staff/skylar-walters.png">
-                    <h1> Skylar Walters </h1>
-                    <h3> HTA | she/her </h3>
-    
-                </div><div id="staff-card">
-                    <img src="/images/staff/skylar-walters.png">
-                    <h1> Skylar Walters </h1>
-                    <h3> HTA | she/her </h3>
+                    <img src="/images/staff/cpax.jpeg">
+                    <h1> Catherine </h1>
+                    <h3> UTA | cyu83 </h3>
+                    <h4> she/her | Jun. 29 | Seattle, WA </h4>
+                    <p> Hi everyone!! I’m a junior studying cs. You can probably find me at the pool swimming or in the CIT, but in my free time I like to explore cute cafes, go on aesthetic picnics, and journal. Can’t wait to meet you all! </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6UFivO2zqqPFPoQYsEMuCc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Ella </h1>
+                    <h3> UTA | emohanra</h3>
+                    <h4> she/her | Sep. 22 | New Jersey </h4>
+                    <p> Hi everyone! I'm a sophomore studying computational neuroscience. I love visiting museums and baking/eating desserts! Catch me with a coffee and a book in my free time, and I'm so excited to meet y'all! </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5zcoYCmeIL392as1bwIYce?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Gunner </h1>
+                    <h3> UTA | gjpeters </h3>
+                    <h4> he/him | Birthday | Hometown </h4>
+                    <p> hello it is me. cpax . </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5PJH1U5Iie893v48Fl9yaC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Julie </h1>
+                    <h3> UTA | jwang702 </h3>
+                    <h4> she/her | May 24 | Newton, MA </h4>
+                    <p> Hi! I'm Julie, and I'm a sophomore from Newton, MA studying CS. I love crocheting, art, and going on long walks! I am also a huge Andrews yogurt bowl advocate. Feel free to reach out any time! </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2SPbioo65CuUB3H0aW1ID5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Michael </h1>
+                    <h3> UTA | msun59 </h3>
+                    <h4> he/him | Birthday | Hometown </h4>
+                    <p> hello it is me. cpax . </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5PJH1U5Iie893v48Fl9yaC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Nathan </h1>
+                    <h3> UTA | nthroneb </h3>
+                    <h4> he/him | Apr. 8 | St. Charles, Il. </h4>
+                    <p> Hi everyone! I'm a sophomore studying APMA-Econ and CS. I enjoy playing golf, double bass, and the NYT (mini) Crossword. On the weekends, you'll find me listening to music, reading outside, or getting a slice at Mike's Calzones. </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1H5IfYyIIAlgDX8zguUzns?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Oliver </h1>
+                    <h3> UTA | okahn </h3>
+                    <h4> he/him | Oct. 22 | Chevy Chase, MD </h4>
+                    <p> Hi y’all, I’m a sophomore studying math. I play frisbee and I love biking, reading on the green, and taking photos on my camera. So excited for this semester! Good luck to everyone :) </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5PJH1U5Iie893v48Fl9yaC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Patrick </h1>
+                    <h3> UTA | pkjennin </h3>
+                    <h4> he/him | Jul. 14 | Kirksville, MO </h4>
+                    <p> Hey everyone! I'm a junior studying Applied Math. I love hiking, stargazing, and throwing frisbees at baskets. On campus, you will find me in the Brown University Chamber Orchestra (BUCO) and playing trumpet in the Wind Symphony. I can't wait to meet you all!</p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5CU1bbfY1wUPm7fU255Dhf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Sean </h1>
+                    <h3> UTA | syu66 </h3>
+                    <h4> he/him | Apr. 22 | middle-of-nowhere, MD </h4>
+                    <p> Hi everyone! My name is Sean and I’m a senior studying CS with a hint of bio! In my free time, I like sitting outside on the main green, sleeping, and (hopefully) playing cello in the Brown University Orchestra! </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3gFQOMoUwlR6aUZj81gCzu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Stella </h1>
+                    <h3> UTA | stsogtja </h3>
+                    <h4> she/her | Dec. 18 | Schaumburg, IL </h4>
+                    <p> Hi everyone! I'm a junior studying CS and Astronomy. I love caffeine, painting, art history, trivia, indie rock, and cartoons. I'm excited to work with you all :) </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4F7SWwVXyvGlCs9TtXJbUd?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                </div>
+                <div id="staff-card">
+                    <img src="/images/staff/skylar.png">
+                    <h1> Taha </h1>
+                    <h3> UTA | tebrahim </h3>
+                    <h4> he/him | Birthday | Hometown </h4>
+                    <p> hello it is me. cpax . </p>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5PJH1U5Iie893v48Fl9yaC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
     
             </div>
 
@@ -93,6 +178,10 @@
             
 
 
+    </div>
+
+    <div id="footer">
+        <br>
     </div>
 
 

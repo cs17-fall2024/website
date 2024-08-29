@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS17 Course Website</title>
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body id="homePage">
 
     <div id="nav-bar-wrapper">
         <a href="index.html">
-            <img src="/images/logo192.png" alt="CS17">
+            <img src="/images/cs17_logo_green.png" alt="CS17">
         </a>
 
         <button class="dropbtn" onclick="toggle()">&#x2630;</button>
@@ -19,7 +21,7 @@
             <div id="dropdown-content">
               <a href="index.html">Home</a>
               <a href="assignments.html">Assignments</a>
-              <a href="notes.html>Notes</a>
+              <a href="notes.html">Notes</a>
               <a href="resources.html">Resources</a>
               <a href="staff.html">Staff</a>
             </div>
@@ -27,11 +29,11 @@
 
         <div id="nav-bar">
             <ul>
-                <li><a href=index.html>Home</a></li>
-                <li><a href=assignments.html>Assignments</a></li>
-                <li><a href=notes.html>Notes</a></li>
-                <li><a href=resources.html>Resources</a></li>
-                <li><a href=staff.html>Staff</a></li>
+                <li><a href=index.html data-page="homePage">Home</a></li>
+                <li><a href=assignments.html data-page="assignmentsPage">Assignments</a></li>
+                <li><a href=notes.html data-page="notesPage">Notes</a></li>
+                <li><a href=resources.html data-page="resourcesPage">Resources</a></li>
+                <li><a href=staff.html data-page="staffPage">Staff</a></li>
             </ul>
         </div>
     </div>
@@ -62,55 +64,39 @@
 
         
             <div id="announcements">
-                <h1>
-                    awesome thematic element here
-                </h1>
-                <p>
-                    wow it is so cool
-                </p>
+                <img src="/images/cs17_logo_green.png" alt="cs17">
             </div>
             
 
         </div>
         
         <div id="quicklinks">
-            <div id="link-container">EdStem</div>
-            <div id="link-container">Gradescope</div>
-            <div id="link-container">Hours</div>
-            <div id="link-container">Syllabus</div>
-        </div>
-
-        <div id="current-assignment-wrap">
-            
-            <h3>
-                Current Assignments
-            </h3>
-
-            <div id="curr-assign">
-                <div id="assignment-card">
-                    <p>let's put a lab here</p>
-                </div>
-                <div id="assignment-card">
-                    <p>and also a homework</p>
-                </div>
-                <div id="assignment-card">
-                    <p>perhaps even. a project...?</p>
-                </div>
-            </div>
+            <a href="https://edstem.org/us/courses/64962/discussion/">
+                <div id="link-container">EdStem</div>
+            </a>
+            <a href="https://www.gradescope.com/courses/844301">
+                <div id="link-container">Gradescope</div>
+            </a>
+            <a href="https://hours.cs.brown.edu/">
+                <div id="link-container">Hours</div>
+            </a>
+            <a href="https://drive.google.com/file/d/1C4h5ZaGRQt08APpI81ojNmxkGVmwoDif/view?usp=drive_link">
+                <div id="link-container">Syllabus</div>
+            </a>
 
         </div>
 
         <h1>
             Calendars
         </h1>
-        <p>
-            so. we dont have the calendars yet. but we will.
-            in the meantime, here is last year's calendar.
-        </p>
         <div id="calendar-container">
-            <iframe src="https://calendar.google.com/calendar/embed?src=c_e68c058f258d2ce5f22f29e7d54bacd4eb55bc7e877d6641887cd3c76bea919a%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=c_0db874e8f21894ea36adae30d77bc6584c5ff8ef7038145752cfaa0601b1f246%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         
+    </div>
+
+    <div id="footer">
+        <br>
     </div>
 
     

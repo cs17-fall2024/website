@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS17 Course Website</title>
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="resourcesPage">
 
     <div id="nav-bar-wrapper">
         <a href="index.html">
-            <img src="/images/logo192.png" alt="CS17">
+            <img src="/images/cs17_logo_green.png" alt="CS17">
         </a>
 
         <button class="dropbtn" onclick="toggle()">&#x2630;</button>
 
         <div id="dropdown-container">
             <div id="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="assignments.html">Assignments</a>
-              <a href="notes.html">Notes</a>
-              <a href="resources.html">Resources</a>
-              <a href="staff.html">Staff</a>
+              <a href="index.html" data-page="homePage">Home</a>
+              <a href="assignments.html" data-page="assignmentsPage">Assignments</a>
+              <a href="notes.html" data-page="notesPage">Notes</a>
+              <a href="resources.html" data-page="resourcesPage">Resources</a>
+              <a href="staff.html" data-page="staffPage">Staff</a>
             </div>
         </div>
 
@@ -43,43 +44,82 @@
 
             <div class="resource-column">
                 <p>General</p>
-                <div class="resource-box">Syllabus</div>
-                <div class="resource-box">Common mistakes</div>
-                <div class="resource-box">Racket to ReasonML</div>
-                <div class="resource-box">Design recipe</div>
+                <a href="https://drive.google.com/file/d/1C4h5ZaGRQt08APpI81ojNmxkGVmwoDif/view?usp=drive_link">
+                    <div class="resource-box">Syllabus</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1MOmK2So4ryqhaSboxMifQF81sedFmOIL/view?usp=drive_link">
+                    <div class="resource-box">Common mistakes</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1f4BFDMzUvHZ3RvTdJm0V8Ki0134T1yDw/view?usp=drive_link">
+                    <div class="resource-box">Racket to ReasonML</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1EZMdd0i0CPuBxz7T-PvlwLbGgdgv7ftk/view?usp=drive_link">
+                    <div class="resource-box">Design recipe</div>
+                </a>
+                <!-- 
+                    Wow. You found this?!?! Good eye. This button links to Adam's Apples. 
+                    It's a website that Spike (a former professor of the class) really liked. 
+                    We quite like it too. Maybe you'll find your new favorite apple. 
+                    Happy CS17-ing :-) 
+            
+                    <3, 
+                    your 2024 CS17 TA staff 
+                -->
+                <a href="https://adamapples.blogspot.com/p/apples-reviews.html">
+                    <div class="resource-box">Apples</div>
+                </a>
+
             </div>
         
             <div class="resource-column">
                 <p>Racket and ReasonML</p>
-                <div class="resource-box">Style Guide</div>
-                <div class="resource-box">Racket Style Guide</div>
-                <div class="resource-box">ReasonML Debugging</div>
-                <div class="resource-box">ReasonML Install</div>
-                <div class="resource-box">ReasonML Style</div>
+                <a href="https://drive.google.com/file/d/1cvTE3rge9KQWe0eIkhzzClPSV4v7cRxm/view?usp=drive_link">
+                    <div class="resource-box">Style Guide</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1zDHd72GTM3Rg2d4uaq4-ky-3Zwy6_y9c/view?usp=drive_link">
+                    <div class="resource-box">Racket Style Guide</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1Sn8bRfrZ3bLrWlBiz5hrtpz6Pp67DTq_/view?usp=drive_link">
+                    <div class="resource-box">ReasonML Debugging</div>
+                </a>
+                <a href="https://drive.google.com/file/d/10DKtSWwsbcB_dIMq0dEWHgDdcobaY8l5/view?usp=drive_link">
+                    <div class="resource-box">ReasonML Install</div>
+                </a>
             </div>
         
             <div class="resource-column">
                 <p>Policies and Guides</p>
-                <div class="resource-box">EdStem Policies</div>
-                <div class="resource-box">Hours Policies</div>
-                <div class="resource-box">Pair Programming</div>
-                <div class="resource-box">Class Policies</div>
-                <div class="resource-box">Primitives</div>
-                <div class="resource-box">Symbol Guide</div>
-                <div class="resource-box">Using SSH</div>
+                <a href="https://drive.google.com/file/d/19TWcXvqMn7SbLEBEIQJYY_ntXoRdxFPn/view?usp=drive_link">
+                    <div class="resource-box">EdStem Policies</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1TCavmFLVdDpWfUuacB_MvxNnyxViRO44/view?usp=drive_link">
+                    <div class="resource-box">Course Policies</div>
+                </a>
+                <a href="https://drive.google.com/file/d/14sjpGOx_-SEttTFiFhw0GiRSxqIXH5Jp/view?usp=drive_link">
+                    <div class="resource-box">Hours Policies</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1Wb77D8C9GMekg9MQbBzK3DbzcpX7-Wxp/view?usp=drive_link">
+                    <div class="resource-box">Pair Programming</div>
+                </a>
+                <a href="https://drive.google.com/file/d/1ltCZkhJald8vXjSJyoEGJij1s_vr0_l_/view?usp=drive_link">
+                    <div class="resource-box">Symbol Guide</div>
+                </a>
+                <a href="https://drive.google.com/file/d/12YuDjdwx3yk6kQUM9BUl-5cKodDwFlUx/view?usp=drive_link">
+                    <div class="resource-box">Using SSH</div>
+                </a>
             </div>
     
         </div>
         <h1>
             Calendars
         </h1>
-        <p>
-            so. we dont have the calendars yet. but we will.
-            in the meantime, here is last year's calendar.
-        </p>
         <div id="calendar-container">
-            <iframe src="https://calendar.google.com/calendar/embed?src=c_e68c058f258d2ce5f22f29e7d54bacd4eb55bc7e877d6641887cd3c76bea919a%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=c_0db874e8f21894ea36adae30d77bc6584c5ff8ef7038145752cfaa0601b1f246%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
+    </div>
+    
+    <div id="footer">
+        <br>
     </div>
     
 

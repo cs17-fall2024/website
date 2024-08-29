@@ -10,6 +10,16 @@ function toggle() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    const currentPage = document.body.id;
+    const navLinks = document.querySelectorAll('#nav-bar a');
+
+    navLinks.forEach(link => {
+        if (link.getAttribute('data-page') === currentPage) {
+            link.classList.add('active');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
     function adjustLayout() {
         var nav = document.getElementById('nav-bar');
         var dropdown = document.getElementById('dropdown-container');
@@ -24,6 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
             button.style.display = 'block';
         }
     }
+
+    const currentPage = document.body.id;
+    const navLinks = document.querySelectorAll('#nav-bar a');
 
     // Call adjustLayout on page load
     adjustLayout();
@@ -41,13 +54,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const imgSrc = card.querySelector('img').src;
             const name = card.querySelector('h1').textContent.trim();
             const role = card.querySelector('h3').textContent.trim();
+            const info = card.querySelector('h4').textContent.trim();
             const bio = card.querySelector('p') ? card.querySelector('p').textContent.trim() : '';
+            const song = card.querySelector('iframe')
 
             staffFeature.innerHTML = `
                 <img src="${imgSrc}" alt="${name}">
                 <h1>${name}</h1>
                 <h3>${role}</h3>
+                <h4>${info}</h4>
                 <p>${bio}</p>
+                <iframe src="${song.src}" border: none;"></iframe>
+
             `;
         });
     });

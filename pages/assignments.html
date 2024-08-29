@@ -6,23 +6,24 @@
     <title>CS17 Course Website</title>
     <link rel="stylesheet" href="/styles.css">
     <script src="assignments.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body onload="getAssignments();">
+<body onload="getAssignments();" id="assignmentsPage">
 
     <div id="nav-bar-wrapper">
         <a href="index.html">
-            <img src="/images/logo192.png" alt="CS17">
+            <img src="/images/cs17_logo_green.png" alt="CS17">
         </a>
 
         <button class="dropbtn" onclick="toggle()">&#x2630;</button>
 
         <div id="dropdown-container">
             <div id="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="assignments.html">Assignments</a>
-              <a href="notes.html">Notes</a>
-              <a href="resources.html">Resources</a>
-              <a href="staff.html">Staff</a>
+              <a href="index.html" data-page="homePage">Home</a>
+              <a href="assignments.html" data-page="assignmentsPage">Assignments</a>
+              <a href="notes.html" data-page="notesPage">Notes</a>
+              <a href="resources.html" data-page="resourcesPage">Resources</a>
+              <a href="staff.html" data-page="staffPage">Staff</a>
             </div>
         </div>
         <div id="nav-bar">
@@ -46,14 +47,13 @@
         </h3>
         <div id="current-assignments">
             <div id="lab-assignment-card">
-                <h2>Current Lab</h2>
                 <a id="lab-assignment-card-title" href="">
                     <h4>
                         Lab Name
                     </h4>
                 </a>
                 <div id="assignment-card-line">
-                        <b>Released:&nbsp;</b>
+                        <b> Released:&nbsp;</b>
                         <span id="lab-assignment-card-out"></span>
                 </div>
                 <div id="assignment-card-line">
@@ -62,8 +62,6 @@
                 </div>
             </div>
             <div id="hw-assignment-card">
-                <h2>Current Homework</h2>
-
                 <a id="hw-assignment-card-title" href="">
                     <h4>
                         HW Name
@@ -79,8 +77,6 @@
                 </div>
             </div>
             <div id="proj-assignment-card">
-                <h2>Current Project</h2>
-
                 <a id="proj-assignment-card-title" href="">
                     <h4>
                         Proj Name
@@ -191,6 +187,10 @@
             </tr>
             
         </table>
+    </div>
+
+    <div id="footer">
+        <br>
     </div>
 
 
