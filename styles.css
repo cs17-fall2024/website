@@ -598,4 +598,17 @@ h1, p {
         margin-top: 1em; 
     }
 
+    /* staff */ 
+
+    #staff-body { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    #staff-feature { 
+        width: 90%; 
+        margin-bottom: 1em; 
+    }
+
 }
