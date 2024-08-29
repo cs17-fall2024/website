@@ -364,13 +364,10 @@ table td, table th{
     border-bottom: 1px solid #c0c0c0;
 }
 
-
 table tr:hover{
-    background-color:#484848;
+    background-color:#484848; 
     color:white;
 }
-
-
 /*
     Classes
 */

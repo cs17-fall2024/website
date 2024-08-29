@@ -18,7 +18,7 @@ const labs = [
   },
   {
     title: "Lab 2",
-    out: new Date("2 Sep 2024 12:00:00 EST"),
+    out: new Date("28 Aug 2024 12:00:00 EST"),
     due: new Date("10 Sep 2024 12:00:00 EST"),
     late: new Date("10 Sep 2024 12:00:00 EST"),
     link: "link",
@@ -152,44 +152,46 @@ const getAssignments = () => {
 
   currLabs.forEach(function (row) {
     var newRow = document.createElement("tr");
-    labTable.appendChild(newRow);
 
     var cellTitle = document.createElement("td");
     cellTitle.textContent = row.title;
-    labTable.appendChild(cellTitle);
+    newRow.appendChild(cellTitle);
 
     var cellOut = document.createElement("td");
     cellOut.textContent = row.out.toLocaleString("en-US", date_formatting);
-    labTable.appendChild(cellOut);
+    newRow.appendChild(cellOut);
 
     var cellDue = document.createElement("td");
     cellDue.textContent = row.due.toLocaleString("en-US", date_formatting);
-    labTable.appendChild(cellDue);
+    newRow.appendChild(cellDue);
 
     var cellLate = document.createElement("td");
     cellLate.textContent = row.late.toLocaleString("en-US", date_formatting);
-    labTable.appendChild(cellLate);
+    newRow.appendChild(cellLate);
+
+    labTable.appendChild(newRow);
   });
 
   currProjs.forEach(function (row) {
     var newRow = document.createElement("tr");
-    projTable.appendChild(newRow);
 
     var cellTitle = document.createElement("td");
     cellTitle.textContent = row.title;
-    projTable.appendChild(cellTitle);
+    newRow.appendChild(cellTitle);
 
     var cellOut = document.createElement("td");
     cellOut.textContent = row.out.toLocaleString("en-US", date_formatting);
-    projTable.appendChild(cellOut);
+    newRow.appendChild(cellOut);
 
     var cellDue = document.createElement("td");
     cellDue.textContent = row.due.toLocaleString("en-US", date_formatting);
-    projTable.appendChild(cellDue);
+    newRow.appendChild(cellDue);
 
     var cellLate = document.createElement("td");
     cellLate.textContent = row.late.toLocaleString("en-US", date_formatting);
-    projTable.appendChild(cellLate);
+    newRow.appendChild(cellLate);
+
+    projTable.appendChild(newRow);
   });
 
   /* 
