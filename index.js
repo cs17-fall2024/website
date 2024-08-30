@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const staffFeature = document.getElementById("staff-feature");
 
   staffCards.forEach((card) => {
-    card.addEventListener("mouseover", () => {
+    card.addEventListener("click", () => {
       const imgSrc = card.querySelector("img").src;
       const name = card.querySelector("h1").textContent.trim();
       const role = card.querySelector("h3").textContent.trim();
