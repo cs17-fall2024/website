@@ -477,7 +477,7 @@ h1, p {
 #staff-feature img{
     width:50%;
     border-radius: 15px;
-    margin-top:50px;
+    margin-top:60px;
 }
 #staff-feature h1{
     font-weight: bold;
@@ -498,12 +498,13 @@ h1, p {
     font-weight: normal;
 }
 #staff-feature p{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
     text-align:left;
     margin-left:20px;
     margin-right:20px;
     padding:0;
+    margin-bottom:10px;
 }
 #staff-feature iframe{
     width: 90%;
