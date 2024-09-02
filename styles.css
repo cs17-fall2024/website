@@ -112,7 +112,6 @@ a:visited {
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
-    margin-left:auto;
     text-decoration: none;
 }
 #quicklinks a{
@@ -124,9 +123,12 @@ a:visited {
     background-color:#373737;
     text-align: center;
     border-radius: 25px;
-    padding:15px;
+    padding-top:15px;
+    padding-bottom: 15px; 
     color:white;
     font-weight: bold;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
 }
 #link-container:hover{
     background-color:#1db954;
@@ -141,11 +143,11 @@ a:visited {
     text-decoration: none;
     color: white;
     display: none;
-    padding: 15px;
+    padding: 12px;
     border:none;
     white-space: nowrap;
     background-color: #212121;
-    font-size:x-large;
+    font-size:2.5rem; 
 }
 
 #dropdown-container{
@@ -194,8 +196,8 @@ a:visited {
 #home-box{
     display: flex;
     flex-direction: wrap;
-    margin:0;
-    color:	#d8d8d8;
+    margin:auto; 
+    color:#d8d8d8;
 }
 
 #home-intro-text{
@@ -416,6 +418,7 @@ table tr:hover{
     justify-content: center;
 }
 .resource-column{
+    min-width: 20rem; 
     display:flex;
     flex-direction: column;
     margin: 20px;
@@ -430,7 +433,8 @@ table tr:hover{
 }
 
 .resource-box {
-    width: 20vw;
+    margin: auto; 
+    width: 90%; 
     background-color: #373737;
     text-align: center;
     border-radius: 10px;
@@ -512,7 +516,6 @@ h1, p {
     margin:0;
     padding:0;
 }
-
 #staff-all{
     width:65%;
     color:#f4f4f4;
@@ -537,6 +540,11 @@ h1, p {
     border-radius:15px;
     margin: 5px;
     margin-bottom:0;
+}
+
+#staff-card:hover { 
+    cursor: pointer; 
+    opacity: 70%; 
 }
 #staff-card h1{
     font-size:20px;
@@ -601,12 +609,56 @@ h1, p {
 
     /* staff */ 
 
+    #staff-card img { 
+        height: auto; 
+        width: 75%; 
+    }
     #staff-body { 
         justify-content: center; 
     }
 
+    #staff-all { 
+        width: 100%;  
+    }
+
     #staff-feature { 
         display: none; 
+    }
+
+    #staff-card {
+        width: 40%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding: 1rem; 
+        margin-bottom: 2rem; 
+        background-color: #373737;
+        border-radius: 20px;  
+    }
+
+    #staff-card h4{
+        display:block;
+    }
+    #staff-card p{
+        display:block;
+    }
+    #staff-card iframe{
+        width:100%;
+        height: 10rem; 
+        display:block;
+    }
+    #staff-card:hover { 
+        opacity: 100%;
+        cursor: default;  
+    }
+
+}
+
+@media (max-width: 500px) { 
+    #home-intro-text h1 { 
+        font-size: 45px; 
+    }
+    #staff-card {
+        width: 80%; 
     }
 
 }
