@@ -278,6 +278,23 @@ a:visited {
     padding:1em;
     color:rgb(216, 216, 216);
 }
+#source-slide{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#source-slide a{
+    display: block; 
+    text-align: center; 
+    text-decoration: none;
+    color:white;
+    background-color: #484848;
+    padding: 10px;
+    border-radius: 25px; 
+    margin:10px;
+    margin-bottom:0;
+}
+
 #hw-assignment-card{
     background-color: #373737;
     border-radius: 15px;
@@ -370,6 +387,9 @@ table tr:hover{
     background-color:#484848; 
     color:white;
 }
+.no-decoration {
+    text-decoration: none;
+  }
 /*
     Classes
 */
@@ -541,6 +561,7 @@ h1, p {
     margin: 5px;
     margin-bottom:0;
     object-fit: cover;
+    
 }
 
 #staff-card:hover { 
