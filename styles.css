@@ -499,9 +499,9 @@ h1, p {
 }
 
 #staff-feature img{
-    width:75%;
+    width:65%;
     border-radius: 15px;
-    margin-top:60px;
+    margin-top:50px;
 }
 #staff-feature h1{
     font-weight: bold;
@@ -522,11 +522,11 @@ h1, p {
     font-weight: normal;
 }
 #staff-feature p{
-    font-size: 10px;
+    font-size: 9px;
     font-weight: normal;
     text-align:left;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:15px;
+    margin-right:15px;
     padding:0;
     margin-bottom:10px;
 }

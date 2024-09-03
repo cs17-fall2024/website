@@ -18,13 +18,13 @@ const labs = [
     title: "Lab 1: Setup",
     out: new Date("8 Sep 2024 14:00:00 EST"),
     due: new Date("15 Sep 2024 13:59:00 EST"),
-    link: "https://drive.google.com/file/d/1O49c2261yas4Wl6757DRd3pZGPCemoff/view?usp=drive_link",
-    slide: "https://docs.google.com/presentation/d/1AYjTXpnpxLMgm5M2v_n9m9gcoL1er3BSJ2vqsD6xJs4/edit?usp=drive_link",
+    link: "",
+    slide: "",
     source: "",
   },
   {
     /* update handout */
-    title: "Lab 3: Racket",
+    title: "Lab 2: Racket",
     out: new Date("15 Sep 2024 14:00:00 EST"),
     due: new Date("22 Sep 2024 13:59:00 EST"),
     link: "",
@@ -121,7 +121,7 @@ const homeworks = [
     out: new Date("4 Sep 2024 15:30:00 EST"),
     due: new Date("11 Sep 2024 22:00:00 EST"),
     late: new Date("12 Sep 2024 22:00:00 EST"),
-    link: "https://drive.google.com/file/d/1nikYsPZNbNacVNb6DbJ_hy-7GZ-xRnLp/view?usp=drive_link",
+    link: "",
     source: "",
   },
   {
