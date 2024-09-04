@@ -118,7 +118,7 @@ const labs = [
 const homeworks = [
   {
     title: "HW 1: Warmup",
-    out: new Date("4 Sep 2024 15:30:00 EST"),
+    out: new Date("5 Sep 2024 19:30:00 EST"),
     due: new Date("11 Sep 2024 22:00:00 EST"),
     late: new Date("12 Sep 2024 22:00:00 EST"),
     link: "",
