@@ -121,7 +121,7 @@ const homeworks = [
     out: new Date("5 Sep 2024 19:30:00 EST"),
     due: new Date("11 Sep 2024 22:00:00 EST"),
     late: new Date("12 Sep 2024 22:00:00 EST"),
-    link: "https://drive.google.com/file/d/1E9Huu0arrtsVxmjcJoqRmKTDHMhtvmqJ/view?usp=drive_link",
+    link: "",
     source: "",
   },
   {
