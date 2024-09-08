@@ -25,7 +25,7 @@ const labs = [
   {
     /* update handout */
     title: "Lab 2: Racket",
-    out: new Date("15 Sep 2024 14:00:00 EST"),
+    out: new Date("15 Sep 2024 00:00:00 EST"),
     due: new Date("22 Sep 2024 13:59:00 EST"),
     link: "",
     slide: "",
@@ -34,7 +34,7 @@ const labs = [
   {
     /* update handout */
     title: "Lab 3: Recursion",
-    out: new Date("22 Sep 2024 14:00:00 EST"),
+    out: new Date("22 Sep 2024 00:00:00 EST"),
     due: new Date("29 Sep 2024 13:59:00 EST"),
     link: "",
     slide: "",
@@ -43,7 +43,7 @@ const labs = [
   {
     /* update handout */
     title: "Lab 4: Natural Numbers",
-    out: new Date("22 Sep 2024 14:00:00 EST"),
+    out: new Date("22 Sep 2024 00:00:00 EST"),
     due: new Date("29 Sep 2024 13:59:00 EST"),
     link: "",
     slide: "",
@@ -52,7 +52,7 @@ const labs = [
   {
     /* update handout */
     title: "Lab 5: Search",
-    out: new Date("29 Sep 2024 14:00:00 EST"),
+    out: new Date("29 Sep 2024 00:00:00 EST"),
     due: new Date("6 Oct 2024 13:59:00 EST"),
     link: "",
     slide: "",
