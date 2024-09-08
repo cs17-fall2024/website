@@ -235,10 +235,7 @@ const getAssignments = () => {
   // get the current and past assignments
   const currLabs = labs.filter((lab) => d.valueOf() >= lab.out.valueOf());
   const currHws = homeworks.filter((hw) => d.valueOf() >= hw.out.valueOf());
-  const currProjs = projects.filter(
-    (proj) => d.valueOf() >= proj.out.valueOf()
-  );
-
+  const currProjs = projects.filter((proj) => d.valueOf() >= proj.out.valueOf());
   // update current assignment cards!
   /*  
     labs contain:
@@ -248,7 +245,7 @@ const getAssignments = () => {
   if(currLabs.length == 0){
     labCard.style.display = "none";
   } else {
-    currLab = currLabs[currLabs.length - 1];
+    let currLab = currLabs[currLabs.length - 1];
     labCardTitle = document.getElementById("lab-assignment-card-title");
     labCardTitle.setAttribute("href", currLab.link);
     labCardTitle.innerHTML = currLab.title;
@@ -277,7 +274,7 @@ const getAssignments = () => {
   if(currHws.length == 0){
     hwCard.style.display = "none";
   } else {
-    currHw = currHws[currHws.length - 1];
+    let currHw = currHws[currHws.length - 1];
     hwCardTitle = document.getElementById("hw-assignment-card-title");
     hwCardTitle.setAttribute("href", currHw.link);
     hwCardTitle.innerHTML = currHw.title;
@@ -330,8 +327,8 @@ const getAssignments = () => {
     hwTable.appendChild(newRow);
 
     var cellTitle = document.createElement("td");
-  
-    if (row.link == "" || row.link == null) {
+    
+    if (row.link == "" || row.link == null || row.out.valueOf() > d.valueOf()) {
       cellTitle.textContent = row.title;
       cellTitle.classList.add("no-decoration");
     } else {
@@ -361,7 +358,7 @@ const getAssignments = () => {
 
     var cellTitle = document.createElement("td");
   
-    if (row.link == "" || row.link == null) {
+    if (row.link == "" || row.link == null || row.out.valueOf() > d.valueOf()) {
       cellTitle.textContent = row.title;
       cellTitle.classList.add("no-decoration");
     } else {
@@ -378,7 +375,7 @@ const getAssignments = () => {
 
     var slideshows = document.createElement("td");
 
-    if (row.slide == "" || row.slide == null) {
+    if (row.slide == "" || row.slide == null || row.out.valueOf() > d.valueOf()) {
       slideshows.textContent = "";
     } else {
       var cellLink = document.createElement("a");
@@ -395,7 +392,7 @@ const getAssignments = () => {
 
     var cellTitle = document.createElement("td");
   
-    if (row.link == "" || row.link == null) {
+    if (row.link == "" || row.link == null || row.out.valueOf() > d.valueOf()) {
       cellTitle.textContent = row.title;
       cellTitle.classList.add("no-decoration");
     } else {
@@ -421,7 +418,7 @@ const getAssignments = () => {
 
     var slideshows = document.createElement("td");
 
-    if (row.gearup == "" || row.gearup == null) {
+    if (row.gearup == "" || row.gearup == null || row.out.valueOf() > d.valueOf()) {
       slideshows.textContent = "";
     } else {
       var cellLink = document.createElement("a");
