@@ -25,8 +25,8 @@ const labs = [
   {
     /* update handout */
     title: "Lab 2: Racket",
-    out: new Date("15 Sep 2024 00:00:00 EDT"),
-    due: new Date("22 Sep 2024 13:59:00 EDT"),
+    out: new Date("15 Sep 2024 12:00:00"),
+    due: new Date("22 Sep 2024 13:59:00"),
     link: "",
     slide: "",
     source: "",
@@ -126,9 +126,9 @@ const homeworks = [
   },
   {
     title: "HW 2: Procedures",
-    out: new Date("12 Sep 2024 12:00:00 EDT"),
-    due: new Date("18 Sep 2024 22:00:00 EDT"),
-    late: new Date("19 Sep 2024 22:00:00 EDT"),
+    out: new Date("12 Sep 2024 17:00:00"),
+    due: new Date("18 Sep 2024 22:00:00"),
+    late: new Date("19 Sep 2024 22:00:00"),
     link: "",
     source: "",
   },
