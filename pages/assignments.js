@@ -126,7 +126,7 @@ const homeworks = [
   },
   {
     title: "HW 2: Procedures",
-    out: new Date("12 Sep 2024 00:00:00"),
+    out: new Date("12 Sep 2024 12:00:00 EDT"),
     due: new Date("18 Sep 2024 22:59:00"),
     late: new Date("19 Sep 2024 22:59:00"),
     link: "https://drive.google.com/file/d/1yKj-a4fYahuC_5RoVds9quT8HkNUu9-Z/view?usp=drive_link",
