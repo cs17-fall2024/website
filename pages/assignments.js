@@ -235,7 +235,7 @@ const getAssignments = () => {
 
   // get the current and past assignments
   const currLabs = labs.filter((lab) => d.valueOf() >= lab.out.valueOf());
-  const currHws = homeworks.filter((hw) => d.valueOf() >= hw.out.valueOf());
+  const currHws = homeworks.filter((hw) => d.valueOf() >= hw.out.valueOf() && d.valueOf() <= hw.due.valueOf());
   const currProjs = projects.filter((proj) => d.valueOf() >= proj.out.valueOf());
   // update current assignment cards!
   /*  
