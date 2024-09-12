@@ -126,10 +126,10 @@ const homeworks = [
   },
   {
     title: "HW 2: Procedures",
-    out: new Date("12 Sep 2024 17:00:00"),
+    out: new Date("12 Sep 2024 10:00:00"),
     due: new Date("18 Sep 2024 22:59:00"),
     late: new Date("19 Sep 2024 22:59:00"),
-    link: "",
+    link: "https://drive.google.com/file/d/1yKj-a4fYahuC_5RoVds9quT8HkNUu9-Z/view?usp=drive_link",
     source: "",
   },
   {
@@ -202,8 +202,8 @@ const projects = [
   {
     title: "Bignum",
     out: new Date("23 Sep 2024 12:00:00 EDT"),
-    due: new Date("4 Oct 2024 22:00:00 EDT"),
-    late: new Date("5 Oct 2024 22:00:00 EDT"),
+    due: new Date("4 Oct 2024 22:59:00 EDT"),
+    late: new Date("5 Oct 2024 22:59:00 EDT"),
     link: "",
     source: "",
     gearup: "",
@@ -211,8 +211,8 @@ const projects = [
   {
     title: "Rackette",
     out: new Date("24 Oct 2024 12:00:00 EDT"),
-    due: new Date("8 Nov 2024 22:00:00 EST"),
-    late: new Date("9 Nov 2024 22:00:00 EST"),
+    due: new Date("8 Nov 2024 22:59:00 EST"),
+    late: new Date("9 Nov 2024 22:59:00 EST"),
     link: "",
     source: "",
     gearup: "",
@@ -220,8 +220,8 @@ const projects = [
   {
     title: "Game",
     out: new Date("11 Nov 2024 12:00:00 EST"),
-    due: new Date("6 Dec 2024 22:00:00 EST"),
-    late: new Date("7 Dec 2024 22:00:00 EST"),
+    due: new Date("6 Dec 2024 22:59:00 EST"),
+    late: new Date("7 Dec 2024 22:59:00 EST"),
     link: "",
     source: "",
     gearup: "",
