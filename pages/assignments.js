@@ -25,11 +25,11 @@ const labs = [
   {
     /* update handout */
     title: "Lab 2: Racket",
-    out: new Date("15 Sep 2024 12:00:00"),
-    due: new Date("22 Sep 2024 13:59:00"),
-    link: "",
-    slide: "",
-    source: "",
+    out: new Date("15 Sep 2024 14:00:00 EDT"),
+    due: new Date("22 Sep 2024 13:59:00 EDT"),
+    link: "https://drive.google.com/file/d/1C3JYXqJKsrPUgNL_U4A96yg4wW14Gp_j/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1PvHhnPJ6wuh9sRMMF4LteLu52txprRd3PNRYllJwOLU/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1mvgO0FWVQb0xWKfA61Uei47HYOAfW57e?usp=drive_link",
   },
   {
     /* update handout */
