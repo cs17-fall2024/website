@@ -43,8 +43,8 @@ const labs = [
   {
     /* update handout */
     title: "Lab 4: Natural Numbers",
-    out: new Date("22 Sep 2024 00:00:00 EDT"),
-    due: new Date("29 Sep 2024 13:59:00 EDT"),
+    out: new Date("29 Sep 2024 00:00:00 EDT"),
+    due: new Date("6 Oct 2024 13:59:00 EDT"),
     link: "",
     slide: "",
     source: "",
