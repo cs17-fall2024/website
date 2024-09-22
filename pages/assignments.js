@@ -34,10 +34,10 @@ const labs = [
   {
     /* update handout */
     title: "Lab 3: Recursion",
-    out: new Date("22 Sep 2024 00:00:00 EDT"),
+    out: new Date("22 Sep 2024 14:00:00 EDT"),
     due: new Date("29 Sep 2024 13:59:00 EDT"),
-    link: "",
-    slide: "",
+    link: "https://drive.google.com/file/d/1FLLCAH1HheX538saCjNar9mM9g1wvSI1/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/13hxpabHGjCgPNYk4z4jDYDH-qu5MzPIFYmjgGQqx8C4/edit?usp=sharing",
     source: "",  
   },
   {
