@@ -201,7 +201,7 @@ const homeworks = [
 const projects = [
   {
     title: "Bignum",
-    out: new Date("23 Sep 2024 9:00:00 EDT"),
+    out: new Date("23 Sep 2024 00:00:00 EDT"),
     due: new Date("4 Oct 2024 22:59:00 EDT"),
     late: new Date("5 Oct 2024 22:59:00 EDT"),
     link: "https://drive.google.com/file/d/12yDJvOu_S-Yu9JDyEOyYpkwlYqD8IHin/view?usp=sharing",
