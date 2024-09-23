@@ -258,7 +258,7 @@ const getAssignments = () => {
      currLab.due.toLocaleString("en-US", date_formatting);
     
      /* add slide and source code link if present */
-    if(currLab.source == null || currLab.slide == ""){
+    if(currLab.slide == null || currLab.slide == ""){
       document.getElementById("slide").style.display = "none";
     }else{
       document.getElementById("slide").setAttribute("href", currLab.slide);
