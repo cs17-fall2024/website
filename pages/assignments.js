@@ -206,7 +206,7 @@ const projects = [
     late: new Date("5 Oct 2024 22:59:00 EDT"),
     link: "https://drive.google.com/file/d/12yDJvOu_S-Yu9JDyEOyYpkwlYqD8IHin/view?usp=sharing",
     source: "https://drive.google.com/drive/folders/1UFut6rafCjvrMuIACXsezfQVWSJOceLS?usp=sharing",
-    gearup: "",
+    gearup: "https://drive.google.com/file/d/1QOVSWmAJWOci5_mV1504aQcKzEYFLfOw/view?usp=sharing",
   },
   {
     title: "Rackette",
