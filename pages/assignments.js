@@ -142,10 +142,10 @@ const homeworks = [
   },
   {
     title: "HW 4: More Recursion",
-    out: new Date("26 Sep 2024 12:00:00 EDT"),
+    out: new Date("26 Sep 2024 00:00:00 EDT"),
     due: new Date("2 Oct 2024 22:59:00 EDT"),
     late: new Date("3 Oct 2024 22:59:00 EDT"),
-    link: "",
+    link: "https://drive.google.com/file/d/1zbE4Tf4jCslb2WU_wr3sTKPTEJiGQ3yK/view?usp=drive_link",
     source: "",
   },
   {
