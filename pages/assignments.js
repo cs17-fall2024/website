@@ -42,18 +42,18 @@ const labs = [
   },
   {
     /* update handout */
-    title: "Lab 4: Natural Numbers",
-    out: new Date("29 Sep 2024 00:00:00 EDT"),
+    title: "Lab 4: More Recursion",
+    out: new Date("29 Sep 2024 14:00:00 EDT"),
     due: new Date("6 Oct 2024 13:59:00 EDT"),
-    link: "",
-    slide: "",
+    link: "https://drive.google.com/file/d/1Wd5-MmbV_29kDr_-uQ_kV9Rx71rsG2Aq/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1qSH24E_MZbH7fQXIw67IhOy3GC0nwg6YS7O8iQON_3I/edit?usp=sharing",
     source: "",
   },
   {
     /* update handout */
     title: "Lab 5: Search",
-    out: new Date("29 Sep 2024 00:00:00 EDT"),
-    due: new Date("6 Oct 2024 13:59:00 EDT"),
+    out: new Date("6 Oct 2024 14:00:00 EDT"),
+    due: new Date("13 Oct 2024 13:59:00 EDT"),
     link: "",
     slide: "",
     source: "",
