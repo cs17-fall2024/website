@@ -169,8 +169,8 @@ const homeworks = [
     out: new Date("17 Oct 2024 12:00:00 EDT"),
     due: new Date("23 Oct 2024 22:59:00 EDT"),
     late: new Date("24 Oct 2024 22:59:00 EDT"),
-    link: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1ykiWj_pelxrC8wliq8WM5BN50cufheEZ/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1uoyR8ujGI29pSLMrb8HI74QYpC96xArP?usp=sharing",
   },
   {
     title: "HW 8: ADTs",
