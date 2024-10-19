@@ -168,7 +168,7 @@ const homeworks = [
     title: "HW 7: Rackettecita",
     out: new Date("17 Oct 2024 12:00:00 EDT"),
     due: new Date("24 Oct 2024 15:59:00 EDT"),
-    late: new Date("26 Oct 2024 15:59:00 EDT"),
+    late: new Date("25 Oct 2024 15:59:00 EDT"),
     link: "https://drive.google.com/file/d/1ykiWj_pelxrC8wliq8WM5BN50cufheEZ/view?usp=sharing",
     source: "https://drive.google.com/drive/folders/1uoyR8ujGI29pSLMrb8HI74QYpC96xArP?usp=sharing",
   },
