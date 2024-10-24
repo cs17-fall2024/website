@@ -163,6 +163,7 @@ const homeworks = [
     late: new Date("17 Oct 2024 22:59:00 EDT"),
     link: "https://drive.google.com/file/d/1dYao2nYQCSlyOytJX0VfqfHeGdQribep/view?usp=drive_link",
     source: "https://drive.google.com/drive/folders/1ssPcNq9ZTTsjN0VjPFrDZHAbPJPtogV4?usp=drive_link",
+    
   },
   {
     title: "HW 7: Rackettecita",
@@ -214,7 +215,7 @@ const projects = [
     due: new Date("8 Nov 2024 23:59:00 EDT"),
     late: new Date("9 Nov 2024 23:59:00 EDT"),
     link: "https://drive.google.com/file/d/1cqiyI8aqgzoYYCKepRsZ_SXvfES_XDSK/view?usp=sharing",
-    source: "https://drive.google.com/drive/folders/1TurkLgYXtXnmBQfcWVH83pz3_cDy0N9P?usp=sharing",
+    source: "https://drive.google.com/drive/folders/16VJIA2RUpFw2qpiPJwUtTKVfA-Fzq2jZ?usp=sharing",
     gearup: "",
   },
   {
