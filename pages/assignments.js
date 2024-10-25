@@ -178,8 +178,8 @@ const homeworks = [
     out: new Date("24 Oct 2024 12:00:00 EDT"),
     due: new Date("30 Oct 2024 22:59:00 EDT"),
     late: new Date("31 Oct 2024 22:59:00 EDT"),
-    link: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1b3HmAOTfkmpmiE8GhJFpXlL5zhfypVKR/view?usp=drive_link",
+    source: "https://drive.google.com/drive/folders/1gRYcfhneEFK7udRhl26LUuNIEZNGafN5?usp=drive_link",
   },
   {
     title: "HW 9: Trees, Trees, ...and Lists",
