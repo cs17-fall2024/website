@@ -88,17 +88,17 @@ const labs = [
   {
     /* update handout */
     title: "Lab 9: ADTs",
-    out: new Date("27 Oct 2024 14:00:00 EDT"),
-    due: new Date("3 Nov 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
+    out: new Date("3 Nov 2024 14:00:00 EDT"),
+    due: new Date("10 Nov 2024 13:59:00 EST"),
+    link: "https://drive.google.com/file/d/1jPiOU4w8RE31LuvnHAsxMT5RL1UP7nfS/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1aQFP9sswfUBWup903ivFI23C0ZcbQvzzlyelaAacGzk/edit?usp=sharing",
+    source: "https://drive.google.com/file/d/1jPiOU4w8RE31LuvnHAsxMT5RL1UP7nfS/view?usp=sharing",
   },
   {
     /* update handout */
     title: "Lab 10: Game",
-    out: new Date("3 Nov 2024 14:00:00 EST"),
-    due: new Date("10 Nov 2024 13:59:00 EST"),
+    out: new Date("10 Nov 2024 14:00:00 EST"),
+    due: new Date("17 Nov 2024 13:59:00 EST"),
     link: "",
     slide: "",
     source: "",
@@ -106,8 +106,8 @@ const labs = [
   {
     /* update handout */
     title: "Lab 11: Sort",
-    out: new Date("10 Nov 2024 14:00:00 EST"),
-    due: new Date("17 Nov 2024 13:59:00 EST"),
+    out: new Date("17 Nov 2024 14:00:00 EST"),
+    due: new Date("24 Nov 2024 13:59:00 EST"),
     link: "",
     slide: "",
     source: "",
