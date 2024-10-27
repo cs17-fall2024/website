@@ -83,7 +83,7 @@ const labs = [
     due: new Date("3 Nov 2024 13:59:00 EDT"),
     link: "https://drive.google.com/file/d/1jPiOU4w8RE31LuvnHAsxMT5RL1UP7nfS/view?usp=sharing",
     slide: "https://docs.google.com/presentation/d/1aQFP9sswfUBWup903ivFI23C0ZcbQvzzlyelaAacGzk/edit?usp=sharing",
-    source: "https://drive.google.com/file/d/1jPiOU4w8RE31LuvnHAsxMT5RL1UP7nfS/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1QOYlPq7hswLHFp40viFwYO34rcWiV9e9?usp=sharing",
   },
   {
     /* update handout */
