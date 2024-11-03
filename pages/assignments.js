@@ -90,9 +90,9 @@ const labs = [
     title: "Lab 9: ADTs",
     out: new Date("3 Nov 2024 14:00:00 EDT"),
     due: new Date("10 Nov 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1Cx_4qEQ3fkEHTvhVdSFH-bdbqsOO-IXX/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/11CfWKuklG94myIP_UToLyU3gGLq7kBJzaxJZLaiqtoI/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1ZLU9dVAhPHbhr2wJJ9c7NjvayiEP6MYA?usp=sharing",
   },
   {
     /* update handout */
