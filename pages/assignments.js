@@ -186,8 +186,8 @@ const homeworks = [
     out: new Date("7 Nov 2024 12:00:00 EST"),
     due: new Date("13 Nov 2024 22:59:00 EST"),
     late: new Date("14 Nov 2024 22:59:00 EST"),
-    link: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1Z-yP90AdyViPjJg5YX6KuwzVyxPbtyt2/view?usp=drive_link",
+    source: "https://drive.google.com/file/d/1KaoH73aLK1vAh3yfDGY0_TImlmFHwqQw/view?usp=drive_link",
   },
   {
     title: "HW 10: Game Tools",
