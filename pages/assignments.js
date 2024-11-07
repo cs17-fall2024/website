@@ -88,7 +88,7 @@ const labs = [
   {
     /* update handout */
     title: "Lab 9: ADTs",
-    out: new Date("3 Nov 2024 14:00:00 EDT"),
+    out: new Date("3 Nov 2024 14:00:00 EST"),
     due: new Date("10 Nov 2024 13:59:00 EST"),
     link: "https://drive.google.com/file/d/1Cx_4qEQ3fkEHTvhVdSFH-bdbqsOO-IXX/view?usp=sharing",
     slide: "https://docs.google.com/presentation/d/11CfWKuklG94myIP_UToLyU3gGLq7kBJzaxJZLaiqtoI/edit?usp=sharing",
@@ -176,8 +176,8 @@ const homeworks = [
   {
     title: "HW 8: ADTs",
     out: new Date("24 Oct 2024 12:00:00 EDT"),
-    due: new Date("6 Nov 2024 22:59:00 EDT"),
-    late: new Date("7 Nov 2024 22:59:00 EDT"),
+    due: new Date("6 Nov 2024 22:59:00 EST"),
+    late: new Date("7 Nov 2024 22:59:00 EST"),
     link: "https://drive.google.com/file/d/1b3HmAOTfkmpmiE8GhJFpXlL5zhfypVKR/view?usp=drive_link",
     source: "https://drive.google.com/drive/folders/1gRYcfhneEFK7udRhl26LUuNIEZNGafN5?usp=drive_link",
   },
