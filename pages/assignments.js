@@ -220,11 +220,11 @@ const projects = [
   },
   {
     title: "Game",
-    out: new Date("11 Nov 2024 12:00:00 EDT"),
-    due: new Date("6 Dec 2024 22:59:00 EDT"),
-    late: new Date("7 Dec 2024 22:59:00 EDT"),
-    link: "",
-    source: "",
+    out: new Date("11 Nov 2024 9:00:00 EDT"),
+    due: new Date("4 Dec 2024 22:59:00 EDT"),
+    late: new Date("5 Dec 2024 22:59:00 EDT"),
+    link: "https://drive.google.com/file/d/1gFN0hhmCnOgs_G1Pr1R6Z6cDcJwkU68U/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/11K8334kKw2vKovmcrGybRCoRQxq2B3Pe?usp=sharing",
     gearup: "",
   },
 ];
