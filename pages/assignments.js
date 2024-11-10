@@ -99,9 +99,9 @@ const labs = [
     title: "Lab 10: Game",
     out: new Date("10 Nov 2024 14:00:00 EST"),
     due: new Date("17 Nov 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1Xj6c8hbZ8ktkklnDtSZa7-WyxJKT2cmB/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1bUjEGXMFmDe0POW0QXFiwkB-MhGbsue7gcJIbtC6bl8/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/14O8R6BK7XIJdQOc6bNE971mWf8k14zDv?usp=sharing",
   },
   {
     /* update handout */
