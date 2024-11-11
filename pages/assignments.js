@@ -216,7 +216,7 @@ const projects = [
     late: new Date("9 Nov 2024 23:59:00 EDT"),
     link: "https://drive.google.com/file/d/1cqiyI8aqgzoYYCKepRsZ_SXvfES_XDSK/view?usp=sharing",
     source: "https://drive.google.com/drive/folders/16VJIA2RUpFw2qpiPJwUtTKVfA-Fzq2jZ?usp=sharing",
-    gearup: "",
+    gearup: "https://drive.google.com/drive/folders/16VJIA2RUpFw2qpiPJwUtTKVfA-Fzq2jZ?usp=sharing",
   },
   {
     title: "Game",
@@ -225,7 +225,7 @@ const projects = [
     late: new Date("5 Dec 2024 22:59:00 EDT"),
     link: "https://drive.google.com/file/d/1gFN0hhmCnOgs_G1Pr1R6Z6cDcJwkU68U/view?usp=sharing",
     source: "https://drive.google.com/drive/folders/11K8334kKw2vKovmcrGybRCoRQxq2B3Pe?usp=sharing",
-    gearup: "",
+    gearup: "https://drive.google.com/drive/folders/11K8334kKw2vKovmcrGybRCoRQxq2B3Pe?usp=sharing",
   },
 ];
 
