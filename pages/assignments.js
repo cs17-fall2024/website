@@ -194,8 +194,8 @@ const homeworks = [
     out: new Date("14 Nov 2024 12:00:00 EST"),
     due: new Date("20 Nov 2024 22:59:00 EST"),
     late: new Date("21 Nov 2024 22:59:00 EST"),
-    link: "",
-    source: "",
+    link: "https://drive.google.com/file/d/19mMBiMBkO3wTc-gtJxs1BaQeHeNBbekM/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1OpzAoUnToY5XCT3vwJMRd3p0sEIMjoM4?usp=sharing",
   },
 ];
 
