@@ -108,9 +108,9 @@ const labs = [
     title: "Lab 11: Sort",
     out: new Date("17 Nov 2024 14:00:00 EST"),
     due: new Date("24 Nov 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1nOZXFV8i5_gE9hp3XjFpzhK3NSYPALZN/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1CUatWSIatofRDjFeZWblXxUp4m4mfaGrPqNx5tWUDcI/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1T1im4_a68wu3eggTbBGG1RFAAO93kS1_?usp=sharing",
   },
 
 ];
