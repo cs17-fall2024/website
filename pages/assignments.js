@@ -99,18 +99,18 @@ const labs = [
     title: "Lab 10: Game",
     out: new Date("10 Nov 2024 14:00:00 EST"),
     due: new Date("17 Nov 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1Xj6c8hbZ8ktkklnDtSZa7-WyxJKT2cmB/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1bUjEGXMFmDe0POW0QXFiwkB-MhGbsue7gcJIbtC6bl8/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/14O8R6BK7XIJdQOc6bNE971mWf8k14zDv?usp=sharing",
   },
   {
     /* update handout */
     title: "Lab 11: Sort",
     out: new Date("17 Nov 2024 14:00:00 EST"),
     due: new Date("24 Nov 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
+    link: "https://drive.google.com/file/d/1nOZXFV8i5_gE9hp3XjFpzhK3NSYPALZN/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1CUatWSIatofRDjFeZWblXxUp4m4mfaGrPqNx5tWUDcI/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1T1im4_a68wu3eggTbBGG1RFAAO93kS1_?usp=sharing",
   },
 
 ];
@@ -194,8 +194,8 @@ const homeworks = [
     out: new Date("14 Nov 2024 12:00:00 EST"),
     due: new Date("20 Nov 2024 22:59:00 EST"),
     late: new Date("21 Nov 2024 22:59:00 EST"),
-    link: "",
-    source: "",
+    link: "https://drive.google.com/file/d/19mMBiMBkO3wTc-gtJxs1BaQeHeNBbekM/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1OpzAoUnToY5XCT3vwJMRd3p0sEIMjoM4?usp=sharing",
   },
 ];
 
@@ -216,16 +216,16 @@ const projects = [
     late: new Date("9 Nov 2024 23:59:00 EDT"),
     link: "https://drive.google.com/file/d/1cqiyI8aqgzoYYCKepRsZ_SXvfES_XDSK/view?usp=sharing",
     source: "https://drive.google.com/drive/folders/16VJIA2RUpFw2qpiPJwUtTKVfA-Fzq2jZ?usp=sharing",
-    gearup: "",
+    gearup: "https://drive.google.com/drive/folders/16VJIA2RUpFw2qpiPJwUtTKVfA-Fzq2jZ?usp=sharing",
   },
   {
     title: "Game",
-    out: new Date("11 Nov 2024 12:00:00 EDT"),
-    due: new Date("6 Dec 2024 22:59:00 EDT"),
-    late: new Date("7 Dec 2024 22:59:00 EDT"),
-    link: "",
-    source: "",
-    gearup: "",
+    out: new Date("11 Nov 2024 9:00:00 EDT"),
+    due: new Date("5 Dec 2024 16:00:00 EDT"),
+    late: new Date("6 Dec 2024 16:00:00 EDT"),
+    link: "https://drive.google.com/file/d/1gFN0hhmCnOgs_G1Pr1R6Z6cDcJwkU68U/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/11K8334kKw2vKovmcrGybRCoRQxq2B3Pe?usp=sharing",
+    gearup: "https://drive.google.com/drive/folders/11K8334kKw2vKovmcrGybRCoRQxq2B3Pe?usp=sharing",
   },
 ];
 
